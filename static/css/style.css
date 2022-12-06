@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #065c16;
+    color: #FBF9FF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #860c0e;
+    color: #FBF9FF;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0.01em solid white;
+}
+
+button:hover {
+    background-color: #3559b4;
+    color: #000807;
+}
+
+button:active {
+    background-color: #3559b4;
+    color: #000807;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:disabled {
+    background-color: #750606;
+    color: #FBF9FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    color: #FBF9FF;
+}
+
+a {
+    text-decoration: none;
+    color: #6569d6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #e6ccb2;
+    text-decoration: none;
+}
+
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#logo_box {
+    padding-top: 16vh;
+    padding-bottom: 4vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+::-moz-selection {
+    color: #e6ccb2;
+    background: #3559b4;
+}
+
+::selection {
+    color: #e6ccb2;
+    background: #3559b4;
+}
